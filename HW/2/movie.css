@@ -1,0 +1,136 @@
+body{
+    background-image: url("HW2_images/background.png");
+    font: 8pt Verdana;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url("HW2_images/bannerbackground.png");
+    background-repeat: repeat-x;
+    background-size: auto 50px;
+}
+.banner{
+    display: block;
+    margin: 0px auto;
+    height: 50px;
+}
+.movieName{
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+}
+.content{
+    position: relative;
+    margin: 0px auto;
+    border: 4px solid gray;
+    width: 800px;
+}
+.leftCentral{
+    display: flex;
+    width: 550px;
+    
+}
+.rotten-top{
+    background-image: url("HW2_images/rottenbackground.png");
+    background-repeat: repeat-x;
+    background-size: auto 83px;
+    width: 550px;
+}
+
+#rottenImg{
+    display: inline-block;
+    vertical-align: bottom;
+    height: 83px;
+}
+.thirtyTwo{
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0px;
+    padding: 0px;
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+}
+.totalRev{
+    display: inline-block;
+    vertical-align: 11px;
+    font-size: 8pt;
+    color: white;
+}
+#leftCol{
+    flex-basis: 47%;
+    margin: 2%;
+}
+#rightCol{
+    flex-basis: 47%;
+    margin: 2%;
+}
+.reviews{
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E1D697;
+    border: 2px solid gray;
+    padding: 8px;
+}
+.rottenGIF{
+    float: left;
+    margin-right: 5px;
+}
+.freshGIF{
+    float: left;
+    margin-right: 5px;
+}
+.personalInfo{
+    margin-top: 0;
+    margin-bottom: 3.0em;
+}
+.PIgif{
+    float: left;
+    margin-right: 5px;
+}
+.reviewerName{
+    font-style: italic;
+}
+#overview{
+    position: absolute;
+    left: 550px;
+    right: 10px;
+    top: 0px;
+    /*bottom: 765px;*/
+    width: 250px;
+    background-color: #A2B964;
+}
+#ninja{
+    position: relative;
+}
+#text{
+    position: relative;
+    font-size: 8pt;
+    font-family: Arial;
+    background-color: #A2B964;
+}
+#text dt{
+    font-weight: bold;
+}
+#bar{
+    position: relative;
+    bottom: 3px;
+    padding: 5px;
+    background-color: #A2B964;
+    text-align: center;
+    color: white;
+}
+#IMGlinks{
+   position: absolute;
+   right: 0px;
+   top: 825px;
+}
+.W3C1{
+    width: 100px;
+    height: 50px;
+}
+.W3C2{
+    width: 100px;
+    height: 50px;
+}

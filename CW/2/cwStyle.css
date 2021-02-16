@@ -1,0 +1,65 @@
+.e3h2{
+    color: red;
+    margin-left: 4cm;
+}
+#e5{
+    background-color: chocolate;
+}
+#e5 h1{
+    font-size: 14pt;
+    font-family: Arial;
+    font-weight: bold;
+    color: moccasin;
+}
+#e5 h2{
+    font-size: 14pt;
+    font-family: Arial;
+    font-style: normal;
+    color: khaki;
+}
+#e5 .album{
+    font-size: 12pt;
+    font-family: Arial;
+    font-style: normal;
+    color: khaki;
+}
+#e5 .year{
+    font-size: 12pt;
+    font-family: Arial;
+    font-weight: bold;
+    color: ivory;
+}
+#e5 .verse{
+    font-size: 14pt;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    color: gold;
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+#e5 .chorus{
+    font-size: 14pt;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    font-style: italic;
+    color: gold;
+    margin-left: 4cm;
+    margin-right: 4cm;
+}
+#e6{
+    background-color: aqua;
+}
+#e6 p{
+    margin-left: 15px;
+}
+#e6 .topStudents, .timeTable{
+    margin-left: 30px;
+}
+#e6 .topStudents,th,td,.timeTable, th, td{
+    border: 1px solid black;
+}
+#e6 .timeTable, .topStudents{
+    height: 5cm;
+    border-spacing: 0px;
+    width: 8cm;
+}

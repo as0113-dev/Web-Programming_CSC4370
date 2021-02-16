@@ -1,0 +1,30 @@
+header{
+    text-align: center;
+}
+main{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+main#leftColumn{
+    flex-basis: 33%;
+}
+main#rightColumn{
+    flex-basis: 67%;
+}
+#puppy{
+    width: 200px;
+    float: right;
+}
+#belowIMG{
+    clear: both;
+}
+.box1, .box2{
+    padding: 2em;
+    margin: 2em;
+    border: 4px dashed red;
+}
+#lastParagraph{
+    position: fixed;
+    bottom: 5px;
+}

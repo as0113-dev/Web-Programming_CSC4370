@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CW02</title>
+        <link rel="stylesheet" href="cwStyle.css">
+        <style>
+            p.e3{
+                text-indent: 2cm;
+                color: darkred;
+                margin-left: 6cm;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">CSS Part 1</h1>
+        <hr>
+        <h3>Exercise 1</h3>
+        <p style="text-indent: 2cm; color: darkred;">
+            This paragraph has been formatted using the in-line style command.
+        </p>
+
+        <p>
+            This paragraph has not been formatted using the in-line style command.
+        </p>
+
+        <h3>Exercise 2</h3>
+        <div style="background-color: aquamarine; font-size: large; float: right;">
+            The problem in the above code is that font-family is missing end quotation<br>
+            and the "marginleft: 2cm" should have been written like this "margin-left: 2cm;"
+        </div>
+
+        <h3 style="margin-top: 50px;">Exercise 3</h3>
+            <h1 style="color: red; margin-left: 2cm;">h1 heading</h1>
+            <h2 class="e3h2">h2 subheading</h2>
+            <p class="e3">Paragraph1</p>
+            <p class="e3">Paragraph2</p>
+            <h2 class="e3h2">h2 subheading</h2>
+            <p class="e3">Paragraph 1</p>
+        
+        <h3>Exercise 4</h3>
+        <div style="background-color: chocolate;">
+            <h1 style="font-size: 14pt; font-family: Arial; font-weight: bold; color: moccasin;">Artist: Big Whopper</h1>
+            <h2 style="font-size: 14pt; font-family: Arial; font-style: normal; color: khaki;">Song Title: Yo Mama Jokes</h2>
+            <p style="font-size: 12pt; font-family: Arial; font-style: normal; color: khaki;">Album: Back In The Good Ole Days</p>
+            <p style="font-size: 12pt; font-family: Arial; font-weight: bold; color: ivory;">Year: 1975</p>
+            <p style="font-size: 14pt; font-family: Trebuchet MS; font-weight: bold; color: gold; margin-left: 2cm; margin-right: 2cm;">Verse: Yo mama's so old, she walked out of a museum and the alarm went off.</p>
+            <p style="font-size: 14pt; font-family: Trebuchet MS; font-weight: bold; font-style: italic; color: gold; margin-left: 4cm; margin-right: 4cm;">Chorus: Just for laughs, Don't disrespect Yo Mama</p>
+        </div>
+
+        <h3>Exercise 5</h3>
+        <div id="e5">
+            <h1>Artist: Big Whopper</h1>
+            <h2>Song Title: Yo Mama Jokes</h2>
+            <p class="album">Album: Back In The Good Ole Days</p>
+            <p class="year">Year: 1975</p>
+            <p class="verse">Verse: Yo mama's so old, she walked out of a museum and the alarm went off.</p>
+            <p class="chorus">Chorus: Just for laughs, Don't disrespect Yo Mama</p>
+        </div>
+        <h3>Exercise 6</h3>
+        <p style="margin-left: 1cm;">
+            This may be possible through using external style sheet to control the overall design
+            and updates of the websites(in each department). However whenever a department needs
+            to deviate and upates its own schedules due dates etc, then embedded or inline would suffice
+            Because this deviation would be very minimal and only particular for that department.<br>
+            Having one unified external style sheet is best because it is consistency and easy
+            to update for all departments.
+        </p>
+        <div id="e6">
+            <div>
+                <a id="home"><h1>Art and Science Homepage</h1></a>
+                <table class="timeTable">
+                    <caption>Time Table</caption>
+                    <tr>
+                        <th>Semester</th>
+                        <th>Start</th>
+                        <th>End</th>
+                    </tr>
+                    <tr>
+                        <td>Fall</td>
+                        <td>August 14</td>
+                        <td>December 5</td>
+                    </tr>
+                    <tr>
+                        <td>Spring</td>
+                        <td>January 13</td>
+                        <td>May 5</td>
+                    </tr>
+                </table>
+                <br>
+            </div>
+            <div style="background-color: lightgreen;">
+                <hr>
+                <h2>Mathematics Department</h2>
+                <p>Our Mathematics department is the top in its test score ratings</p>
+                <table class="topStudents">
+                    <caption>Top Students Ranking</caption>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Top Students Rank</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Trisha Matinez</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Mona Jummah</td>
+                    </tr>
+                </table>
+                <br><hr>
+            </div>
+            <div style="background-color: dimgrey;">
+                <h2>Welcome to Physics</h2>
+                <h3>Syllabus</h3>
+                <p>
+                    To checkout this course's subjects to be covered and all other information &nbsp;
+                    regarding scheduling, contact, etc. Click on this <a href="#">link</a> to view
+                </p>
+                <hr><hr>
+                <h5 style="text-align: center;"><a href="#home">Click here</a> to go to homepage.</h5>
+            </div>
+        </div>
+    </body>
+</html>

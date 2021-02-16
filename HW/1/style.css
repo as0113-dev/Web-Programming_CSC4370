@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    background-color: papayawhip;
+    background-image: url('botanicalGarden.JPG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 20% 65%;
+    margin-left: 500px;
+}
+#headShot{
+    height: 400px;
+    width: 220px;
+}
+.quote{
+    margin-right: 100px;
+    font-size: large;
+    font-weight: 3;
+}
+.quoteBy{
+    font-weight: bold;
+    font-size: larger;
+    text-align: right;
+}
+table.table{
+    /*margin-left: 50px;*/
+    width: 80%;
+    height: 60%;
+}
+table.table, th, td{
+    padding: 15px;
+    border-spacing: 0px;
+}
+tr:nth-child(even){
+    background-color: darkgray;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+h3{
+    margin-bottom: 0px;
+}
